@@ -167,7 +167,7 @@ function StudyBuddyDashboard() {
         </h1>
         <p className="text-gray-600 mt-2">Your FREE AI-powered study companion</p>
         <div className={`mt-2 inline-flex items-center px-3 py-1 rounded-full text-sm ${apiStatus.isOnline ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'}`}>
-          {apiStatus.isOnline ? '✅ Connected to FREE Gemini API' : '❌ Backend offline'}
+          {apiStatus.isOnline ? 'Where should we begin?' : '❌ Backend offline'}
         </div>
       </div>
 
@@ -528,7 +528,7 @@ function StudyBuddyDashboard() {
 
       {/* Footer */}
       <div className="mt-6 text-center text-sm text-gray-600">
-        <p>AI Study Buddy uses Google's FREE Gemini API - No cost to use!</p>
+        <p>AI Study Buddy is completely free to use!</p>
         <p className="mt-1">Created with ❤️ to make learning fun and accessible for everyone</p>
       </div>
     </div>
